@@ -18,6 +18,20 @@
   --container-width: 1100px;
 }
 
+[data-theme="light"] {
+  --background: #ffffff;
+  --surface: #f2f5f7;
+  --surface-light: #e8eef2;
+
+  --accent: #087f75;
+  --accent-hover: #06665f;
+
+  --text: #17212b;
+  --text-muted: #526171;
+
+  --border: #d5dde5;
+}
+
 /* RESET */
 
 * {
@@ -116,6 +130,27 @@ ul {
   border: none;
   color: var(--text);
   font-size: 25px;
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .accent {
