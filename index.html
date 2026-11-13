@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marius Devz | Frontend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">MZ</span>
+                <span>marius <span class="accent">devz</span></span>
+            </a>
+            <button class="menu-toggle">
+                ☰
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, I'M MARIUS</p>
+                <h1>Hi, I'm Marius,
+                    I build for the
+                    <span class="accent">web.</span>
+                </h1>
+                <p class="hero-description">
+                    I'm a Junior Frontend Developer focused on
+                    building clean, responsive and useful
+                    web experiences while continuously improving
+                    my skills.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary-button">
+                        view projects
+                    </a>
+                    <a href="#contact" class="button secondary-button">
+                        contact Me
+                    </a>
+                </div>
+
+            </div>
+            <div class="hero-visual">
+                <div class="code-card">
+                    <span class="code-symbol">&lt; / &gt;</span>
+                    <p>BUILD. LEARN. IMPROVE</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section container" id="about">
+
+            <p class="eyebrow">ABOUT ME</p>
+            <div class="project-image2">
+                <img src="assets/profile.png" alt="">
+            </div>
+            <h2>A little about me.</h2>
+            <div class="about-content">
+
+                <p>
+                    I'm an aspiring frontend developer who enjoys
+                    building websites and understanding how they work.
+
+                    I have a strong foundation in HTML and CSS and
+                    I'm currently developing my JavaScript skills
+                    while learning more about React.
+                </p>
+
+                <p>
+                    I believe in learning by building, solving
+                    problems independently and improving with
+                    every project.
+                </p>
+
+                <h3>Technologies I'm learning and using</h3>
+
+                <div class="skills-list">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Git</span>
+                    <span>Github</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <h2 class="eyebrow">MY WORK</h2>
+                <p>
+                    A collection of projects I've worked on
+                    while developing my frontend skills.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/shipment-tracker.png" alt="Shipment Tracker application screenshot" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Shipment Tracker</h3>
+
+                        <p>
+                            An application for recording and
+                            managing shipment progress.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://shipmenttracker-flame.vercel.app/" class="project-link">
+                            Live Preview →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/quiz.png" alt="quiz application screenshot" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Quiz Application</h3>
+
+                        <p>
+                            An interactive quiz that displays questions and calculates scores.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://quizapp-plum-five.vercel.app/" class="project-link">
+                            Live Preview →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/weather.png" alt="quiz application screenshot" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Weather Application</h3>
+
+                        <p>
+                            A weather application that retrieves information from an external API.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+
+                        <a href="https://weather-app-khaki-phi-23.vercel.app/" class="project-link">
+                            Live Preview →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section container" id="contact">
+
+            <div class="contact-content">
+                <p class="eyebrow">GET IN TOUCH</p>
+
+                <h2>Let's connect.</h2>
+
+                <p>
+                    I'm open to learning opportunities,
+                    collaborations and conversations about
+                    frontend development.
+                </p>
+                <a href="mailto:mariusdakid@gmail.com" class="button primary-button">
+                    Send Me an Email
+                </a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-content">
+                <a href="@home" class="logo">
+                    <span class="logo-mark">MZ</span>
+                    <span>marius <span class="accent">devz</span></span>
+                </a>
+
+                <p>Built with HTML, CSS and JavaScript</p>
+
+                <p>
+                    &copy; <span id="year"></span> Marius Devz.
+                </p>
+            </div>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
